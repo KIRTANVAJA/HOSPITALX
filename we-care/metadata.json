@@ -1,0 +1,6 @@
+{
+  "name": "HOSPITALX",
+  "description": "HOSPITALX AI Agents platform hero component with liquid glass effect on a plain black background.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

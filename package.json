@@ -1,0 +1,16 @@
+{
+  "name": "hospitalx-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HospitalX Commercial Healthcare & Hospital Management Platform",
+  "scripts": {
+    "dev": "npm run dev --prefix mainframe",
+    "dev:frontend": "npm run dev --prefix mainframe",
+    "dev:backend": "npm run dev --prefix backend",
+    "build": "npm run build --prefix backend && npm run build --prefix mainframe",
+    "build:frontend": "npm run build --prefix mainframe",
+    "build:backend": "npm run build --prefix backend",
+    "test:backend": "npm run test --prefix backend",
+    "prisma:generate": "npm run prisma:generate --prefix backend"
+  }
+}
